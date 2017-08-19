@@ -5,7 +5,7 @@ require 'now/ui/kit/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "now-ui-kit-rails"
-  spec.version       = Now::Ui::Kit::Rails::VERSION
+  spec.version       = NowUiKit::Rails::VERSION
   spec.authors       = ["mgi166"]
   spec.email         = ["skskoari@gmail.com"]
 
