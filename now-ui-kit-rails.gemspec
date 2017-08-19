@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'now-ui-kit-rails/version'
+require 'now_ui_kit/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "now-ui-kit-rails"
