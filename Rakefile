@@ -17,7 +17,7 @@ namespace :now_ui_kit do
       end
 
       sh "unzip -q #{source_path} -d #{dir}", verbose: true
-      sh "mv #{dir}/now-ui-kit-master/assets .", verbose: true
+      sh "mv #{dir}/now-ui-kit-master/assets app/", verbose: true
     end
   end
 end
