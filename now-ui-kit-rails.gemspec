@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mgi166"]
   spec.email         = ["skskoari@gmail.com"]
 
-  spec.summary       = ""
-  spec.description   = ""
+  spec.summary       = "now-ui-kit for the Rails asset pipeline."
+  spec.description   = "now-ui-kit for the Rails asset pipeline."
   spec.homepage      = ""
   spec.license       = "MIT"
 
