@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "now-ui-kit-rails"
   spec.version       = NowUiKit::Rails::VERSION
   spec.authors       = ["mgi166"]
-  spec.email         = ["skskoari@gmail.com"]
+  spec.email         = ["hiromu.mogi@gmail.com"]
 
   spec.summary       = "now-ui-kit for the Rails asset pipeline."
   spec.description   = "now-ui-kit for the Rails asset pipeline."
