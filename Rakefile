@@ -25,3 +25,8 @@ namespace :now_ui_kit do
     end
   end
 end
+
+desc "Run all specs"
+task :spec do
+  sh "bundle exec rspec"
+end
