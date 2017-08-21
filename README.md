@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mgi166/now-ui-kit-rails.svg?branch=master)](https://travis-ci.org/mgi166/now-ui-kit-rails)
+
 # NowUiKit::Rails
 
 `now-ui-kit-rails` provides [now-ui-kit](https://github.com/creativetimofficial/now-ui-kit) assets as a [Rails](https://github.com/rails/rails) engine with asset pipeline.
