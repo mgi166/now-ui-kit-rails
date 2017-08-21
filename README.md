@@ -9,8 +9,21 @@ gem 'now-ui-kit-rails'
 ```
 
 ## Usage
+### Styles
 
-TODO: Write usage instructions here
+Add this to your `app/assets/stylesheets/application.css.scss`.
+
+```
+@import "now-ui-kit";
+```
+
+### Javascripts
+
+Add this to your `app/assets/javascripts/application.js`.
+
+```
+//= require now-ui-kit
+```
 
 ## Development
 
