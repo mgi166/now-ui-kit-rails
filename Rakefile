@@ -24,6 +24,11 @@ namespace :now_ui_kit do
       sh "mv #{dir}/now-ui-kit-master/assets/sass/* app/assets/stylesheets/", verbose: true
     end
   end
+
+  desc "Clean up app/assets/*"
+  task :clean do
+    sh "rm -rf app/assets/*", verbose: true
+  end
 end
 
 desc "Run all specs"
