@@ -28,6 +28,10 @@ namespace :now_ui_kit do
   desc "Clean up app/assets/*"
   task :clean do
     sh "rm -rf app/assets/*", verbose: true
+    sh "mkdir app/assets/fonts", verbose: true
+    sh "mkdir app/assets/images", verbose: true
+    sh "mkdir app/assets/javascripts", verbose: true
+    sh "mkdir app/assets/stylesheets", verbose: true
   end
 end
 
