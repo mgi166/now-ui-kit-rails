@@ -39,6 +39,9 @@ namespace :now_ui_kit do
     sh "mkdir app/assets/javascripts", verbose: true
     sh "mkdir app/assets/stylesheets", verbose: true
   end
+
+  desc "Clean up app/assets/*"
+  task :clear => :clean
 end
 
 desc "Run all specs"
