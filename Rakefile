@@ -5,8 +5,8 @@ require "irb"
 task :default => :spec
 
 namespace :now_ui_kit do
-  desc "Upgrade now-ui-kit assets"
-  task :upgrade do
+  desc "Install now-ui-kit assets"
+  task :install do
     Dir.mktmpdir do |dir|
       source_path = Pathname.new(dir).join("now-ui-kit.zip")
 
