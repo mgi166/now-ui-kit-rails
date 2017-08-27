@@ -18,7 +18,7 @@ namespace :now_ui_kit do
 
       sh "unzip -q #{source_path} -d #{dir}", verbose: true
 
-      sh "mv #{dir}/now-ui-kit-master/assets/fonts/* app/assets/fonts/now_ui_kit", verbose: true
+      sh "mv #{dir}/now-ui-kit-master/assets/fonts/* app/assets/fonts", verbose: true
       sh "mv #{dir}/now-ui-kit-master/assets/img/* app/assets/images/now_ui_kit", verbose: true
       sh "mv #{dir}/now-ui-kit-master/assets/js/* app/assets/javascripts/now_ui_kit", verbose: true
       sh "mv #{dir}/now-ui-kit-master/assets/sass/* app/assets/stylesheets/", verbose: true
