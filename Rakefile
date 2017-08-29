@@ -23,11 +23,11 @@ namespace :now_ui_kit do
       sh "mv #{dir}/now-ui-kit-master/assets/js/now-ui-kit.js app/assets/javascripts/", verbose: true
       sh "mv #{dir}/now-ui-kit-master/assets/sass/* app/assets/stylesheets/", verbose: true
       sh "mv app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
-      sh "sed -i -e 's|../fonts/nucleo-outline.eot|<%= font_path('nucleo-outline.eot') %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
-      sh "sed -i -e 's|../fonts/nucleo-outline.woff2|<%= font_path('nucleo-outline.woff2') %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
-      sh "sed -i -e 's|../fonts/nucleo-outline.woff|<%= font_path('nucleo-outline.woff') %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
-      sh "sed -i -e 's|../fonts/nucleo-outline.ttf|<%= font_path('nucleo-outline.ttf') %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
-      sh "sed -i -e 's|../fonts/nucleo-outline.svg|<%= font_path('nucleo-outline.svg') %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
+      sh "sed -i -e 's|../fonts/nucleo-outline.eot|<%= font_path(\"nucleo-outline.eot\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
+      sh "sed -i -e 's|../fonts/nucleo-outline.woff2|<%= font_path(\"nucleo-outline.woff2\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
+      sh "sed -i -e 's|../fonts/nucleo-outline.woff|<%= font_path(\"nucleo-outline.woff\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
+      sh "sed -i -e 's|../fonts/nucleo-outline.ttf|<%= font_path(\"nucleo-outline.ttf\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
+      sh "sed -i -e 's|../fonts/nucleo-outline.svg|<%= font_path(\"nucleo-outline.svg\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
     end
   end
 
