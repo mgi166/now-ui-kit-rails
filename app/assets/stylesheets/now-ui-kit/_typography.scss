@@ -48,13 +48,17 @@ h4, .h4{
 
     & + .category,
     &.title + .category{
-        margin-top: -10px;
+        margin-top: -5px;
     }
 }
 h5, .h5 {
     font-size: $font-size-h5;
     line-height: 1.4em;
     margin-bottom: 15px;
+
+    &.category{
+        font-weight: 400;
+    }
 }
 h6, .h6{
     font-size: $font-size-h6;
@@ -63,15 +67,14 @@ h6, .h6{
 }
 p{
     line-height: 1.61em;
-
-    .description &,
-    &.description{
-        font-size: 1.14em;
-    }
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
 .title{
     font-weight: $font-weight-bold;
+    padding-top: 30px;
+
 
     &.title-up{
         text-transform: uppercase;
@@ -93,7 +96,7 @@ p{
     font-weight: $font-weight-light;
 }
 .category{
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: $font-weight-bold;
     color: $dark-gray;
 }

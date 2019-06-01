@@ -44,6 +44,11 @@
         }
     }
 
+    .navbar-nav .nav-link i.fab,
+    .navbar-nav .nav-link i.now-ui-icons {
+      opacity: .5;
+    }
+
     .bootstrap-collapse{
         .navbar .navbar-collapse{
             background: none !important;
@@ -102,13 +107,12 @@
             top: 93%;
         }
     }
-
-    .navbar .navbar-nav.navbar-logo{
-        display: none;
-    }
 }
 
 @media screen and (min-width: 992px){
+  .navbar-collapse:not(.has-image) {
+    background: transparent !important;
+}
     .burger-menu{
         @include navbar-collapse();
 
@@ -211,6 +215,14 @@
 
     .dropdown-menu .dropdown-item{
         color: inherit;
+        display: flex;
+        align-items: center;
+
+        i {
+          margin-right: 5px;
+          position: relative;
+          top: 1px;
+        }
     }
 
     .footer{
@@ -393,4 +405,10 @@ and ( orientation : portrait){
             transform: translateY(-50%);
         }
     }
+}
+
+@media only screen and (min-height: 950px) {
+  .index-page .page-header .category-absolute{
+    margin-top: -330px;
+  }
 }
