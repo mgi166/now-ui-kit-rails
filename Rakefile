@@ -21,7 +21,7 @@ namespace :now_ui_kit do
       sh "cp -r #{dir}/now-ui-kit-master/assets/fonts/* app/assets/fonts/", verbose: true
       sh "cp -r #{dir}/now-ui-kit-master/assets/img/* app/assets/images/now-ui-kit/", verbose: true
       sh "cp -r #{dir}/now-ui-kit-master/assets/js/now-ui-kit.js app/assets/javascripts/", verbose: true
-      sh "cp -r #{dir}/now-ui-kit-master/assets/sass/* app/assets/stylesheets/", verbose: true
+      sh "cp -r #{dir}/now-ui-kit-master/assets/scss/* app/assets/stylesheets/", verbose: true
       sh "cp -r app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
       sh "sed -i -e 's|../fonts/nucleo-outline.eot|<%= font_path(\"nucleo-outline.eot\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
       sh "sed -i -e 's|../fonts/nucleo-outline.woff2|<%= font_path(\"nucleo-outline.woff2\") %>|g' app/assets/stylesheets/now-ui-kit/_nucleo-outline.scss.erb", verbose: true
